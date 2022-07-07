@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Login/login_screen.dart';
 import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
-import 'package:flutter_auth/Screens/Welcome/components/Welcome_image.dart';
+import 'package:flutter_auth/Screens/Welcome/components/welcome_image.dart';
 import 'package:flutter_auth/Screens/Welcome/components/loginsignup_btn.dart';
 import 'package:flutter_auth/components/backgound.dart';
 import 'package:flutter_auth/constants.dart';
@@ -13,7 +13,6 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return Backgound(
         topImage: 'assets/images/main_top.png',
         bottomImage: 'assets/images/main_bottom.png',
